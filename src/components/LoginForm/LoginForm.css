@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 0px 50px;
+}
+
+input {
+    font-size: 16px;
+    padding: 15px 15px 15px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #707070;
+}
+
+form button {
+    padding: 15px 15px 15px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: none;
+    background: #E70B89;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.handleForgotPassword {
+    display: flex;
+    justify-content: end;
+    color: #E70B89;
+    font-weight: 500;
+}
