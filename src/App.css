@@ -1,16 +1,39 @@
- .App {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   height: 100vh;
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@200;300;400&display=swap');
 
 
- .main-section {
-   width: 400px;
-   height: 700px;
-   border: 2px solid #F0F0F0;
-   background: white;
-   padding: 20px;
- }
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.main-section {
+  width: 400px;
+  height: 800px;
+  border: 2px solid #F0F0F0;
+  background: white;
+  padding: 20px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading img {
+  margin: 20px;
+}
+
+.heading h4 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
