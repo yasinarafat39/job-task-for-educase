@@ -1,0 +1,11 @@
+.socialMediaIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMediaIcons a {
+    border: 1px solid #EFEFEF;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

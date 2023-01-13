@@ -2,6 +2,7 @@
 import './App.css';
 import reactLogo from './assets/icons8-react-native-240.png';
 import LoginForm from './components/LoginForm/LoginForm';
+import SocialMediaLogin from './components/SocialMediaLogin/SocialMediaLogin';
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
         <LoginForm></LoginForm>
 
         <p className='divider'>or login with</p>
-        
+
+        <SocialMediaLogin></SocialMediaLogin>
+
         <p className='hot-signup'>Don't have an account? <a href="#">Create new now!</a> </p>
         <p className='termsAndConditions'>By signing up, you are agree with our <a href="#"> Terms & Conditions</a></p>
 
