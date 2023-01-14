@@ -12,6 +12,10 @@ input {
     border: 2px solid #707070;
 }
 
+input:focus {
+    outline: #707070;
+}
+
 form button {
     padding: 15px 15px 15px 20px;
     margin-top: 20px;

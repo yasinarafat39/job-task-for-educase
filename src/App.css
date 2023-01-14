@@ -81,10 +81,24 @@ p a {
   font-size: 14px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
 }
 
-.hot-signup a {
-  text-decoration: none;
+.hot-login {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.hot-signup span {
+  color: #E70B89;
+  cursor: pointer;
+}
+
+.hot-login span {
+  color: #E70B89;
+  cursor: pointer;
 }
 
 .termsAndConditions {

@@ -45,10 +45,15 @@ function App() {
 
         <SocialMediaLogin></SocialMediaLogin>
 
-        <p className='hot-signup'>Don't have an account? <a href="#">Create new now!</a> </p>
+
+        {
+          formFilter === 'login' ?
+            <p className='hot-signup'>Don't have an account? <span onClick={() => setFormFilter('signup')}>Create new now!</span> </p>
+            :
+            <p className='hot-login'>Already have account? <span onClick={() => setFormFilter('login')}>login</span> </p>
+        }
+
         <p className='termsAndConditions'>By signing up, you are agree with our <a href="#"> Terms & Conditions</a></p>
-
-
 
       </section>
 
