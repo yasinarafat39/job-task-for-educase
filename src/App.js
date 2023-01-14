@@ -27,8 +27,8 @@ function App() {
 
         <section>
           <div className='navigators'>
-            <p id='login-navigator' className='navigators-active' onClick={()=> setFormFilter('login')}>Login</p>
-            <p id='signup-navigator' onClick={()=> setFormFilter('signup')}>Signup</p>
+            <p id='login-navigator' className={formFilter === 'login' ? 'navigators-active' : ' '} onClick={() => setFormFilter('login')}>Login</p>
+            <p id='signup-navigator' className={formFilter === 'signup' ? 'navigators-active' : ' '} onClick={() => setFormFilter('signup')}>Signup</p>
           </div>
         </section>
 
