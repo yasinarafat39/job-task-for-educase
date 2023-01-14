@@ -47,11 +47,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-#login-navigator {
+.navigators-active {
   border-bottom: 3px solid #E70B89;
   margin-right: 10px;
   font-weight: bold;
 }
+
+#login-navigator {}
 
 #signup-navigator:hover {
   border-bottom: 3px solid #E70B89;
